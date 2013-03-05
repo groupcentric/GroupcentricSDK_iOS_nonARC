@@ -86,90 +86,59 @@
 							<object class="IBUILabel" id="277644102">
 								<reference key="NSNextResponder" ref="59314258"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{11, 28}, {299, 26}}</string>
+								<string key="NSFrame">{{23, 41}, {281, 113}}</string>
 								<reference key="NSSuperview" ref="59314258"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="347999803"/>
+								<reference key="NSNextKeyView" ref="37255223"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Private Sharing &amp; Group Chat</string>
-								<object class="NSColor" key="IBUITextColor">
+								<string key="IBUIText">Share content from this app into private group chats with friends.</string>
+								<object class="NSColor" key="IBUITextColor" id="797982189">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
 									<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
 								</object>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">0</int>
-								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<int key="type">2</int>
-									<double key="pointSize">21</double>
-								</object>
-								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">Helvetica-Bold</string>
-									<double key="NSSize">21</double>
-									<int key="NSfFlags">16</int>
-								</object>
-								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-							</object>
-							<object class="IBUILabel" id="347999803">
-								<reference key="NSNextResponder" ref="59314258"/>
-								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{16, 82}, {285, 42}}</string>
-								<reference key="NSSuperview" ref="59314258"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="1007150537"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<int key="IBUIContentMode">7</int>
-								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Create private groups with your friends to chat and share with</string>
-								<object class="NSColor" key="IBUITextColor" id="823187411">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MC4zMzMzMzMzMzMzAA</bytes>
-								</object>
-								<nil key="IBUIHighlightedColor"/>
-								<int key="IBUIBaselineAdjustment">0</int>
-								<int key="IBUINumberOfLines">2</int>
+								<int key="IBUINumberOfLines">3</int>
 								<int key="IBUITextAlignment">1</int>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="272714959">
+								<object class="IBUIFontDescription" key="IBUIFontDescription" id="699718350">
 									<int key="type">1</int>
-									<double key="pointSize">17</double>
+									<double key="pointSize">19</double>
 								</object>
-								<object class="NSFont" key="IBUIFont" id="398512264">
+								<object class="NSFont" key="IBUIFont" id="268466659">
 									<string key="NSName">Helvetica</string>
-									<double key="NSSize">17</double>
+									<double key="NSSize">19</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-								<double key="preferredMaxLayoutWidth">285</double>
+								<double key="preferredMaxLayoutWidth">281</double>
 							</object>
 							<object class="IBUILabel" id="1007150537">
 								<reference key="NSNextResponder" ref="59314258"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{9, 127}, {303, 80}}</string>
+								<string key="NSFrame">{{9, 144}, {303, 80}}</string>
 								<reference key="NSSuperview" ref="59314258"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="712726318"/>
+								<reference key="NSNextKeyView" ref="277644102"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Share things from inside this app into any of your groups</string>
-								<reference key="IBUITextColor" ref="823187411"/>
+								<string key="IBUIText">Your groups will always be listed here to share and chat with.</string>
+								<reference key="IBUITextColor" ref="797982189"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<int key="IBUINumberOfLines">4</int>
 								<int key="IBUITextAlignment">1</int>
-								<reference key="IBUIFontDescription" ref="272714959"/>
-								<reference key="IBUIFont" ref="398512264"/>
+								<reference key="IBUIFontDescription" ref="699718350"/>
+								<reference key="IBUIFont" ref="268466659"/>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 								<double key="preferredMaxLayoutWidth">303</double>
 							</object>
@@ -189,7 +158,10 @@
 								<string key="IBUINormalTitle">Start a Group</string>
 								<reference key="IBUIHighlightedTitleColor" ref="74260431"/>
 								<reference key="IBUINormalTitleColor" ref="74260431"/>
-								<reference key="IBUINormalTitleShadowColor" ref="823187411"/>
+								<object class="NSColor" key="IBUINormalTitleShadowColor">
+									<int key="NSColorSpace">3</int>
+									<bytes key="NSWhite">MC4zMzMzMzMzMzMzAA</bytes>
+								</object>
 								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">gc_bigbluebtn.png</string>
@@ -210,6 +182,7 @@
 								<string key="NSFrame">{{122, 340}, {83, 13}}</string>
 								<reference key="NSSuperview" ref="59314258"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -238,35 +211,11 @@
 									<int key="NSfFlags">16</int>
 								</object>
 							</object>
-							<object class="IBUILabel" id="712726318">
-								<reference key="NSNextResponder" ref="59314258"/>
-								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{9, 192}, {303, 80}}</string>
-								<reference key="NSSuperview" ref="59314258"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="37255223"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<int key="IBUIContentMode">7</int>
-								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Access your groups in any apps that use private group sharing</string>
-								<reference key="IBUITextColor" ref="823187411"/>
-								<nil key="IBUIHighlightedColor"/>
-								<int key="IBUIBaselineAdjustment">0</int>
-								<int key="IBUINumberOfLines">4</int>
-								<int key="IBUITextAlignment">1</int>
-								<reference key="IBUIFontDescription" ref="272714959"/>
-								<reference key="IBUIFont" ref="398512264"/>
-								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-								<double key="preferredMaxLayoutWidth">303</double>
-							</object>
 						</array>
 						<string key="NSFrameSize">{320, 568}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="277644102"/>
+						<reference key="NSNextKeyView" ref="1007150537"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -436,11 +385,9 @@
 						<reference key="object" ref="59314258"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="37255223"/>
-							<reference ref="347999803"/>
-							<reference ref="277644102"/>
-							<reference ref="1007150537"/>
 							<reference ref="1050961197"/>
-							<reference ref="712726318"/>
+							<reference ref="1007150537"/>
+							<reference ref="277644102"/>
 						</array>
 						<reference key="parent" ref="774585933"/>
 					</object>
@@ -460,18 +407,8 @@
 						<reference key="parent" ref="59314258"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">40</int>
-						<reference key="object" ref="347999803"/>
-						<reference key="parent" ref="59314258"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">37</int>
 						<reference key="object" ref="277644102"/>
-						<reference key="parent" ref="59314258"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">54</int>
-						<reference key="object" ref="712726318"/>
 						<reference key="parent" ref="59314258"/>
 					</object>
 				</array>
@@ -484,11 +421,9 @@
 				<string key="20.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="36.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="37.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="42.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="43.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="47.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="54.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
