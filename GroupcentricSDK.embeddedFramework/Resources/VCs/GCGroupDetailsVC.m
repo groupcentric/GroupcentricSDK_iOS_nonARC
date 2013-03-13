@@ -87,7 +87,7 @@ static CGFloat const kChatBarAttachedPhoto      = 180.0f;
 - (id)initWithGroup:(GCGroup *)group andWithSharedObject:(GCSharedObject *)sharedObj{
     if ((self = [super init])) {
         myGroup = [group retain];
-        sharedObject = [[GCSharedObject alloc]initWithContent:sharedObj.type withTitle:sharedObj.varTitle withSubtitle:sharedObj.varSubtitle withImageURL:sharedObj.imageURL withVariable:sharedObj.var1 withURL:sharedObj.varURL withDate:sharedObj.varDateString withDetails:sharedObj.varDetails withMarkup:sharedObj.varMarkup];
+        sharedObject = [[GCSharedObject alloc]initWithContent:sharedObj.type withTitle:sharedObj.varTitle withSubtitle:sharedObj.varSubtitle withImageURL:sharedObj.imageURL withVariable:sharedObj.var1 withDate:sharedObj.varDateString withDetails:sharedObj.varDetails withMarkup:sharedObj.varMarkup];
         fromSharedSelector = true;
         groupcentric = [Groupcentric sharedInstance];
         
@@ -156,14 +156,15 @@ static CGFloat const kChatBarAttachedPhoto      = 180.0f;
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    //set the title, white font, dark gray shadow
+    //self.title = myGroup.groupName;
     CGRect frame = CGRectMake(0,2,200,44);
     UILabel *label = [[UILabel alloc] initWithFrame:frame];
     label.backgroundColor = [UIColor clearColor];
     label.font = [UIFont boldSystemFontOfSize:15.0];
-    label.shadowColor =  [UIColor darkGrayColor];
+    label.textColor =  [[UIColor alloc] initWithRed:255.0f/255.0f green:255.0f/255.0f blue:255.0f/255.0f alpha:1.0];
     label.textAlignment = UITextAlignmentCenter;
-    label.textColor =[[UIColor alloc] initWithRed:255.0f/255.0f green:255.0f/255.0f blue:255.0f/255.0f alpha:1.0];
+    label.shadowColor =[UIColor darkGrayColor];
+    
     label.text = myGroup.groupName;
     self.navigationItem.titleView = label;
     [label release];
@@ -1196,7 +1197,6 @@ static CGFloat const kChatBarAttachedPhoto      = 180.0f;
         newMessage.object.varSubtitle = sharedObject.varSubtitle;
         newMessage.object.imageURL = sharedObject.imageURL;
         newMessage.object.var1 = sharedObject.var1;
-        newMessage.object.varURL = sharedObject.varURL;
         newMessage.object.varDateString = sharedObject.varDateString;
         NSString *tmp = [sharedObject.varDetails stringByReplacingOccurrencesOfString:@"&" withString:@"&amp;"];
         tmp = [tmp stringByReplacingOccurrencesOfString:@"<" withString:@"&lt;"];

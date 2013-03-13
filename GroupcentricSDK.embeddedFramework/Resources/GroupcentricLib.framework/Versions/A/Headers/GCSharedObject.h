@@ -21,11 +21,13 @@
 @property (nonatomic, strong) NSString *    varDateString;
 @property (nonatomic, strong) NSString *    varDetails;
 @property (nonatomic, strong) NSString *    varMarkup;
-@property (nonatomic, strong) NSString *    varURL;
+//@property (nonatomic, strong) NSString *    varURL;
 @property (nonatomic, assign) int           phoneType;
 @property (nonatomic, strong) NSString *    apiKey;
 
 
--(id)initWithContent:(int)type_ withTitle:(NSString *)title_ withSubtitle:(NSString *)subtitle_ withImageURL:(NSString *)imageurl_ withVariable:(NSString *)var_ withURL:(NSString *)url_ withDate:(NSString *)date_ withDetails:(NSString *)details_ withMarkup:(NSString *)markup_;
+//-(id)initWithContent:(int)type_ withTitle:(NSString *)title_ withSubtitle:(NSString *)subtitle_ withImageURL:(NSString *)imageurl_ withVariable:(NSString *)var_ withURL:(NSString *)url_ withDate:(NSString *)date_ withDetails:(NSString *)details_ withMarkup:(NSString *)markup_;
+
+-(id)initWithContent:(int)type_ withTitle:(NSString *)title_ withSubtitle:(NSString *)subtitle_ withImageURL:(NSString *)imageurl_ withVariable:(NSString *)var_ withDate:(NSString *)date_ withDetails:(NSString *)details_ withMarkup:(NSString *)markup_;
 
 @end

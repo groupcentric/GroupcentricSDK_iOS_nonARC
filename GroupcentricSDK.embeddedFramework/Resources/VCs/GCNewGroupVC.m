@@ -47,7 +47,7 @@
 
 -(id) initWithSharedObject:(GCSharedObject *)sharedObj {
     if ((self = [super init])) {
-        sharedObject = [[GCSharedObject alloc]initWithContent:sharedObj.type withTitle:sharedObj.varTitle withSubtitle:sharedObj.varSubtitle withImageURL:sharedObj.imageURL withVariable:sharedObj.var1 withURL:sharedObj.varURL withDate:sharedObj.varDateString withDetails:sharedObj.varDetails withMarkup:sharedObj.varMarkup];
+        sharedObject = [[GCSharedObject alloc]initWithContent:sharedObj.type withTitle:sharedObj.varTitle withSubtitle:sharedObj.varSubtitle withImageURL:sharedObj.imageURL withVariable:sharedObj.var1 withDate:sharedObj.varDateString withDetails:sharedObj.varDetails withMarkup:sharedObj.varMarkup];
         fromSharedSelector = true;
         
     }
@@ -410,7 +410,7 @@
             obj.varTitle = sharedObject.varTitle;
             obj.varSubtitle = sharedObject.varSubtitle;
             obj.imageURL = sharedObject.imageURL;
-            obj.var1 = sharedObject.varURL;
+            obj.var1 = sharedObject.var1;
             obj.varDateString = sharedObject.varDateString;
             NSString *tmp = [sharedObject.varDetails stringByReplacingOccurrencesOfString:@"&" withString:@"&amp;"];
             tmp = [tmp stringByReplacingOccurrencesOfString:@"<" withString:@"&lt;"];
